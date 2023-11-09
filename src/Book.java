@@ -4,6 +4,12 @@ public class Book implements Media {
     private String ISBN;
     private Boolean NSCCollection;
 
+    /**
+     * @param title Title of book
+     * @param author Author of boon
+     * @param ISBN ISBN code of the specific book
+     * @param NSCCollection If in NSCCollection
+     */
     Book(String title, String author, String ISBN, Boolean NSCCollection) {
         this.title = title;
         this.author = author;

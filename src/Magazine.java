@@ -4,6 +4,12 @@ public class Magazine implements Media {
     private String month;
     private Boolean NSCCollection;
 
+    /**
+     * @param title Title of the magazine
+     * @param issueNumber Issue of the magazine
+     * @param month Which month the magazine came out in
+     * @param NSCCollection If in NSCCollection
+     */
     Magazine(String title, int issueNumber, String month, Boolean NSCCollection) {
         this.title = title;
         this.issueNumber = issueNumber;

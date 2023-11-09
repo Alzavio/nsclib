@@ -4,6 +4,12 @@ public class DVD implements Media {
     private String genre;
     private Boolean NSCCollection;
 
+    /**
+     * @param title Title of dvd
+     * @param duration Duration, in seconds
+     * @param genre Music genre
+     * @param NSCCollection If in NSCCollection
+     */
     DVD(String title, int duration, String genre, Boolean NSCCollection) {
         this.title = title;
         this.duration = duration;
